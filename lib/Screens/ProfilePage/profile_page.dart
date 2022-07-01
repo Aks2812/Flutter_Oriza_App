@@ -1,9 +1,8 @@
-import 'package:auth_oriza/Screens/HomePage/components/body.dart';
 import 'package:auth_oriza/constant.dart';
 import 'package:flutter/material.dart';
 
-class HomePage extends StatelessWidget {
-  const HomePage({Key? key}) : super(key: key);
+class ProfilePage extends StatelessWidget {
+  const ProfilePage({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -11,7 +10,7 @@ class HomePage extends StatelessWidget {
       appBar: AppBar(
         centerTitle: true,
         title: Text(
-          "Home",
+          "Profile",
           style: TextStyle(
             fontWeight: FontWeight.w500,
             fontSize: 20,
@@ -19,7 +18,6 @@ class HomePage extends StatelessWidget {
         ),
         backgroundColor: kGreenBase,
       ),
-      body: Body(),
     );
   }
 }

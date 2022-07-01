@@ -1,9 +1,9 @@
 // ignore_for_file: prefer_const_literals_to_create_immutables, deprecated_member_use
 
 import 'package:auth_oriza/Screens/ForgotPassword/forgot_password.dart';
-import 'package:auth_oriza/Screens/HomePage/home_page.dart';
 import 'package:auth_oriza/Screens/SignUp/sign_up_screen.dart';
 import 'package:auth_oriza/components/already_have_an_account_check.dart';
+import 'package:auth_oriza/components/main_navBar.dart';
 import 'package:auth_oriza/components/rounded_input_field.dart';
 import 'package:auth_oriza/components/rounded_password_field.dart';
 import 'package:auth_oriza/constant.dart';
@@ -52,7 +52,7 @@ class Body extends StatelessWidget {
                   context,
                   MaterialPageRoute(
                     builder: (context) {
-                      return HomePage();
+                      return MainNavBar();
                     },
                   ),
                 );
