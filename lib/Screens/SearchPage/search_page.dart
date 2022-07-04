@@ -9,6 +9,7 @@ class SearchPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
+        automaticallyImplyLeading: false,
         title: Text(
           "Search",
           style: TextStyle(
