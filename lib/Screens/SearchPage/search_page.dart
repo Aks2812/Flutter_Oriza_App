@@ -1,3 +1,4 @@
+import 'package:auth_oriza/Screens/SearchPage/components/body.dart';
 import 'package:auth_oriza/constant.dart';
 import 'package:flutter/material.dart';
 
@@ -19,6 +20,7 @@ class SearchPage extends StatelessWidget {
         ),
         backgroundColor: kGreenBase,
       ),
+      body: Body(),
     );
   }
 }
