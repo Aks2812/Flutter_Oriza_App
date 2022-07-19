@@ -33,13 +33,13 @@ class Body extends StatelessWidget {
                         Ink.image(
                           image: AssetImage("assets/images/Library_Tips.png"),
                           height: size.height * 0.18,
-                          width: size.width * 0.28,
+                          width: size.width * 0.26,
                           fit: BoxFit.fitWidth,
                         ),
-                        SizedBox(
-                          height: size.height * 0.002,
-                          width: size.width * 0.30,
-                        ),
+                        // SizedBox(
+                        //   height: size.height * 0.002,
+                        //   width: size.width * 0.30,
+                        // ),
                         Text(
                           "Gardening Tips",
                           style: TextStyle(
@@ -48,6 +48,10 @@ class Body extends StatelessWidget {
                             fontWeight: FontWeight.bold,
                           ),
                           textAlign: TextAlign.center,
+                        ),
+                        SizedBox(
+                          height: size.height * 0.009,
+                          width: size.width * 0.30,
                         ),
                       ],
                     ),
@@ -68,13 +72,13 @@ class Body extends StatelessWidget {
                           image: AssetImage(
                               "assets/images/LIbrary_Kind_of_Plant.png"),
                           height: size.height * 0.18,
-                          width: size.width * 0.28,
+                          width: size.width * 0.22,
                           fit: BoxFit.fitWidth,
                         ),
-                        SizedBox(
-                          height: size.height * 0.002,
-                          width: size.width * 0.30,
-                        ),
+                        // SizedBox(
+                        //   height: size.height * 0.002,
+                        //   width: size.width * 0.30,
+                        // ),
                         Text(
                           "Types of Plants",
                           style: TextStyle(
@@ -82,6 +86,10 @@ class Body extends StatelessWidget {
                             color: Colors.black,
                             fontWeight: FontWeight.bold,
                           ),
+                        ),
+                        SizedBox(
+                          height: size.height * 0.009,
+                          width: size.width * 0.30,
                         ),
                       ],
                     ),
@@ -112,10 +120,10 @@ class Body extends StatelessWidget {
                           width: size.width * 0.22,
                           fit: BoxFit.contain,
                         ),
-                        SizedBox(
-                          height: size.height * 0.002,
-                          width: size.width * 0.30,
-                        ),
+                        // SizedBox(
+                        //   height: size.height * 0.002,
+                        //   width: size.width * 0.30,
+                        // ),
                         Text(
                           "Type of Fertilizer",
                           style: TextStyle(
@@ -124,6 +132,10 @@ class Body extends StatelessWidget {
                             fontWeight: FontWeight.bold,
                           ),
                           textAlign: TextAlign.center,
+                        ),
+                        SizedBox(
+                          height: size.height * 0.009,
+                          width: size.width * 0.30,
                         ),
                       ],
                     ),
@@ -143,13 +155,13 @@ class Body extends StatelessWidget {
                         Ink.image(
                           image: AssetImage("assets/images/Library_Pots.png"),
                           height: size.height * 0.18,
-                          width: size.width * 0.23,
+                          width: size.width * 0.24,
                           fit: BoxFit.fitWidth,
                         ),
-                        SizedBox(
-                          height: size.height * 0.002,
-                          width: size.width * 0.30,
-                        ),
+                        // SizedBox(
+                        //   height: size.height * 0.002,
+                        //   width: size.width * 0.30,
+                        // ),
                         Text(
                           "Types of Pots",
                           style: TextStyle(
@@ -157,6 +169,10 @@ class Body extends StatelessWidget {
                             color: Colors.black,
                             fontWeight: FontWeight.bold,
                           ),
+                        ),
+                        SizedBox(
+                          height: size.height * 0.009,
+                          width: size.width * 0.30,
                         ),
                       ],
                     ),

@@ -6,3 +6,4 @@ const kLightGreenBase = Color(0xFFB9F6CA);
 const kGreenBase = Color(0xFF43A047);
 const kGreyBase = Color(0xFFCFD8DC);
 const kGreenBaseOutline = Color(0xFF69F0AE);
+const kColorOutlineProfileUser = Color(0xFFC6FF00);
