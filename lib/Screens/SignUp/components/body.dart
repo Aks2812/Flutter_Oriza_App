@@ -3,7 +3,7 @@
 import 'package:auth_oriza/Screens/Login/login_screen.dart';
 import 'package:auth_oriza/components/already_have_an_account_check.dart';
 import 'package:auth_oriza/components/rounded_full_name.dart';
-import 'package:auth_oriza/components/rounded_input_field.dart';
+import 'package:auth_oriza/components/rounded_email_field.dart';
 import 'package:auth_oriza/components/rounded_password_field.dart';
 import 'package:auth_oriza/constant.dart';
 import 'package:flutter/material.dart';
@@ -16,7 +16,7 @@ class Body extends StatelessWidget {
     Size size = MediaQuery.of(context).size;
     return SizedBox(
       width: size.width * 1,
-      height: size.height * 0.51,
+      height: size.height * 0.5,
       child: Column(
         mainAxisSize: MainAxisSize.max,
         mainAxisAlignment: MainAxisAlignment.center,
@@ -34,16 +34,16 @@ class Body extends StatelessWidget {
             hintText: "Enter Full Name...",
             onChanged: (value) {},
           ),
-          SizedBox(height: size.height * 0.001),
-          RoundedInputField(
+          SizedBox(height: size.height * 0.0001),
+          RoundedEmailField(
             hintText: "Enter Email...",
             onChanged: (value) {},
           ),
-          SizedBox(height: size.height * 0.001),
+          SizedBox(height: size.height * 0.0001),
           RoundedPasswordField(
             onChanged: (value) {},
           ),
-          SizedBox(height: size.height * 0.001),
+          SizedBox(height: size.height * 0.0001),
           Container(
             margin: EdgeInsets.symmetric(vertical: 10),
             width: size.width * 0.9,

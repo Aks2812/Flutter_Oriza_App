@@ -2,7 +2,7 @@
 
 import 'package:auth_oriza/Screens/AfterForgetPassword/after_forget_pass.dart';
 import 'package:auth_oriza/Screens/Login/login_screen.dart';
-import 'package:auth_oriza/components/rounded_input_field.dart';
+import 'package:auth_oriza/components/rounded_email_field.dart';
 import 'package:auth_oriza/constant.dart';
 import 'package:flutter/material.dart';
 
@@ -41,7 +41,7 @@ class Body extends StatelessWidget {
               ),
             ),
             SizedBox(height: size.height * 0.045),
-            RoundedInputField(
+            RoundedEmailField(
               hintText: "Enter Email...",
               onChanged: (value) {},
             ),

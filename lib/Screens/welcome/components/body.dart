@@ -60,7 +60,7 @@ class Body extends StatelessWidget {
                 );
               },
               child: Text(
-                "ALREADY HAVE AN ACCOUNT?",
+                "LOGIN",
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
                   fontSize: 15,

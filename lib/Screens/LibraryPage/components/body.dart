@@ -125,7 +125,7 @@ class Body extends StatelessWidget {
                         //   width: size.width * 0.30,
                         // ),
                         Text(
-                          "Type of Fertilizer",
+                          "Types of Fertilizer",
                           style: TextStyle(
                             fontSize: 13,
                             color: Colors.black,

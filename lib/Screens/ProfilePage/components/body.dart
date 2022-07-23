@@ -1,6 +1,8 @@
 // ignore_for_file: deprecated_member_use
 
+import 'package:auth_oriza/Screens/ContactUs/contact_us.dart';
 import 'package:auth_oriza/Screens/Login/login_screen.dart';
+import 'package:auth_oriza/Screens/Privacy&Policy/privacy_policy.dart';
 import 'package:auth_oriza/constant.dart';
 import 'package:flutter/material.dart';
 
@@ -121,14 +123,14 @@ class Body extends StatelessWidget {
               shape: StadiumBorder(),
               color: kGreenBase,
               onPressed: () {
-                // Navigator.push(
-                //   context,
-                //   MaterialPageRoute(
-                //     builder: (context) {
-                //       return LoginScreen();
-                //     },
-                //   ),
-                // );
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) {
+                      return PrivacyPolicy();
+                    },
+                  ),
+                );
               },
               label: Text(
                 "PRIVACY & POLICY",
@@ -154,14 +156,14 @@ class Body extends StatelessWidget {
               shape: StadiumBorder(),
               color: kGreenBase,
               onPressed: () {
-                // Navigator.push(
-                //   context,
-                //   MaterialPageRoute(
-                //     builder: (context) {
-                //       return LoginScreen();
-                //     },
-                //   ),
-                // );
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) {
+                      return ContactUs();
+                    },
+                  ),
+                );
               },
               label: Text(
                 "CONTACT US",
