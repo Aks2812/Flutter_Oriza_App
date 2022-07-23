@@ -3,6 +3,17 @@
 # Section in this repo: 
 
 =======================================
+ - Main Feature 
+ - Side Feature 
+  
+=======================================
+
+
+
+
+# Section for Main Feature: 
+
+=======================================
   - Welcome Page
   - Sign Up
   - Login Page
@@ -14,22 +25,45 @@
   
 =======================================
 
-# Screenshot in this repo:
 
 
-![Welcome_Page](https://user-images.githubusercontent.com/77261121/176909831-cdb0a373-51dc-4555-9c39-569a99f0cdf1.jpg) 
 
-![Sign_Up](https://user-images.githubusercontent.com/77261121/179245682-04b97356-1830-4cc6-8808-acbbf8a65cd6.png) ![Login_Page](https://user-images.githubusercontent.com/77261121/179245708-97c83879-9bc9-4212-9694-b3567adbee9c.png) ![Forget_Password](https://user-images.githubusercontent.com/77261121/176910090-6ac92677-9d18-4fe8-83f1-b189b6642ebf.jpg) ![Confirmation_After_Forget_Pass](https://user-images.githubusercontent.com/77261121/176910096-a1c0cd94-e8ec-4712-9bdc-11b080f7cc95.jpg) ![Home_Page](https://user-images.githubusercontent.com/77261121/179245745-4c624d15-35f8-4d21-b3c9-e496421f145c.png) ![Search_Page](https://user-images.githubusercontent.com/77261121/179762195-f9f912ec-8885-4a3a-b9c1-90e4fac511be.png) 
-![Library_Page_2 0](https://user-images.githubusercontent.com/77261121/179757592-79a19edd-2b72-46ef-b8a1-23934a3ebb55.png) ![Profile_Page_1 0](https://user-images.githubusercontent.com/77261121/179757649-fb67fc73-a782-45f1-abfd-c4b60f84e17f.png)
+# Screenshot for Main Feature:
 
 
-## Getting Started
-This project is a starting point for a Flutter application.
-A few resources to get you started if this is your first Flutter project:
+![Welcome_Page](https://user-images.githubusercontent.com/77261121/180609561-b551a624-a364-458a-ab0d-40a11bafa561.png)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+![Sign_Up_Page](https://user-images.githubusercontent.com/77261121/180609588-6cb1671e-d3e6-4d0d-aa1e-9c4affb1eb21.png)   ![Login_Page](https://user-images.githubusercontent.com/77261121/180609595-894fe636-3fe1-4ba8-ad75-88be6227edf7.png)   ![Forget_Password_Page](https://user-images.githubusercontent.com/77261121/180609605-b1fc09db-2aad-4332-888e-31056826c6b5.jpg)   ![Confirmation_ After_Forget_Password_Page](https://user-images.githubusercontent.com/77261121/180609616-bf9be9bf-ceda-4111-89d2-b25d358c915f.jpg)   ![Home_Page](https://user-images.githubusercontent.com/77261121/180609623-d0992640-dd69-4531-8706-c4bddb8e8412.png)  ![Search_Page](https://user-images.githubusercontent.com/77261121/180609682-feebbdaf-918a-4d2f-bd13-c175773051dc.png)
+![Library_Page](https://user-images.githubusercontent.com/77261121/180609708-7af6ebc2-0106-45db-91fd-065d20a8c8b1.png)  ![Profile_Page](https://user-images.githubusercontent.com/77261121/180610623-0724aef3-2cad-4397-8806-55371f251593.png) 
+
+
+# Section for Side Feature: 
+
+=======================================
+ - Plant
+ - Pot
+ - Supply
+ - Remind
+ - Store
+ - To do list
+ - Gardening tips
+ - Types of Plants
+ - Types of Fertilizier
+ - Types of Pots
+ - Account Settings
+ - Address Settings
+ - Privacy Policy
+ - Contact Us
+ 
+=======================================
+
+
+
+
+# Screenshot for Main Feature:
+
+
+
+![Privacy_Policy_ Page](https://user-images.githubusercontent.com/77261121/180610812-a3e1ee94-5476-4179-9b0f-0f856f2c7f49.png)  ![Contact_Us_Page](https://user-images.githubusercontent.com/77261121/180610823-835f2474-820f-4fe1-b38b-835f7a413b28.png)
