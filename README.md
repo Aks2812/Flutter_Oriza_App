@@ -52,18 +52,17 @@
  - Types of Plants
  - Types of Fertilizier
  - Types of Pots
- - Account Settings
- - Address Settings
- - Privacy Policy
- - Contact Us
+ - Account Settings => [Profile Side Feature]
+ - Address Settings => [Profile Side Feature]
+ - Privacy Policy   => [Profile Side Feature]
+ - Contact Us       => [Profile Side Feature]
  
 =======================================
 
 
 
 
-# Screenshot for Main Feature:
-
+# Screenshot for Profile Side Feature:
 
 
 ![Privacy_Policy_ Page](https://user-images.githubusercontent.com/77261121/180610812-a3e1ee94-5476-4179-9b0f-0f856f2c7f49.png)  ![Contact_Us_Page](https://user-images.githubusercontent.com/77261121/180610823-835f2474-820f-4fe1-b38b-835f7a413b28.png)
