@@ -2,14 +2,14 @@ import 'package:auth_oriza/components/text_field_container.dart';
 import 'package:auth_oriza/constant.dart';
 import 'package:flutter/material.dart';
 
-// class RoundedEmailField extends StatelessWidget {
+// class RoundedFullName extends StatelessWidget {
 //   final String hintText;
 //   final IconData icon;
 //   final ValueChanged<String> onChanged;
-//   const RoundedEmailField({
+//   const RoundedFullName({
 //     Key? key,
 //     required this.hintText,
-//     this.icon = Icons.email,
+//     this.icon = Icons.person,
 //     required this.onChanged,
 //   }) : super(key: key);
 
@@ -31,18 +31,18 @@ import 'package:flutter/material.dart';
 //   }
 // }
 
-class RoundedEmailField extends StatefulWidget {
+class RoundedFullNameField extends StatefulWidget {
   final ValueChanged<String> onChanged;
-  const RoundedEmailField({
+  const RoundedFullNameField({
     Key? key,
     required this.onChanged,
   }) : super(key: key);
 
   @override
-  State<RoundedEmailField> createState() => _RoundedEmailFieldState();
+  State<RoundedFullNameField> createState() => _RoundedFullNameFieldState();
 }
 
-class _RoundedEmailFieldState extends State<RoundedEmailField> {
+class _RoundedFullNameFieldState extends State<RoundedFullNameField> {
   get onChanged => null;
 
   @override
@@ -51,9 +51,9 @@ class _RoundedEmailFieldState extends State<RoundedEmailField> {
       child: TextField(
         onChanged: onChanged,
         decoration: InputDecoration(
-          hintText: "Enter Email...",
+          hintText: "Enter Full Name...",
           icon: Icon(
-            Icons.email,
+            Icons.person,
             color: kBlackBase,
           ),
           // border: InputBorder.none,

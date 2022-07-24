@@ -21,7 +21,7 @@ class Body extends StatelessWidget {
           SizedBox(
             width: size.width * 0.85,
             child: Text(
-              "Privacy & Policy was last updated on 21 July 2022.\n\n\nThis Privacy Policy describes Our Ppolicies and procedures on the collection, use and disclosure of your information when you use the service and tells you about your privacy rights and how the law protects you.\n\nWe use your personal data to provide and improve the service.\n\nBy using the service, you agree to the collection and use of information in accordance with this privacy policy.",
+              "Privacy Policy was last updated on 21 July 2022.\n\n\nThis Privacy Policy describes Our Ppolicies and procedures on the collection, use and disclosure of your information when you use the service and tells you about your privacy rights and how the law protects you.\n\nWe use your personal data to provide and improve the service.\n\nBy using the service, you agree to the collection and use of information in accordance with this privacy policy.",
               style: TextStyle(
                 fontWeight: FontWeight.w500,
               ),

@@ -1,5 +1,6 @@
 // ignore_for_file: deprecated_member_use
 
+import 'package:auth_oriza/Screens/AddressSettings/address_settings.dart';
 import 'package:auth_oriza/Screens/ContactUs/contact_us.dart';
 import 'package:auth_oriza/Screens/Login/login_screen.dart';
 import 'package:auth_oriza/Screens/Privacy&Policy/privacy_policy.dart';
@@ -90,14 +91,14 @@ class Body extends StatelessWidget {
               shape: StadiumBorder(),
               color: kGreenBase,
               onPressed: () {
-                // Navigator.push(
-                //   context,
-                //   MaterialPageRoute(
-                //     builder: (context) {
-                //       return LoginScreen();
-                //     },
-                //   ),
-                // );
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) {
+                      return AddressSettings();
+                    },
+                  ),
+                );
               },
               label: Text(
                 "ADDRESS SETTINGS",
@@ -133,7 +134,7 @@ class Body extends StatelessWidget {
                 );
               },
               label: Text(
-                "PRIVACY & POLICY",
+                "PRIVACY POLICY",
                 style: TextStyle(
                   color: kWhiteBase,
                   fontWeight: FontWeight.bold,

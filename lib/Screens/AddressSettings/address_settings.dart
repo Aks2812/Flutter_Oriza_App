@@ -1,10 +1,10 @@
-import 'package:auth_oriza/Screens/Privacy&Policy/components/body.dart';
+import 'package:auth_oriza/Screens/AddressSettings/components/body.dart';
 import 'package:auth_oriza/Screens/ProfilePage/profile_page.dart';
 import 'package:auth_oriza/constant.dart';
 import 'package:flutter/material.dart';
 
-class PrivacyPolicy extends StatelessWidget {
-  const PrivacyPolicy({Key? key}) : super(key: key);
+class AddressSettings extends StatelessWidget {
+  const AddressSettings({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -12,7 +12,7 @@ class PrivacyPolicy extends StatelessWidget {
       appBar: AppBar(
         centerTitle: true,
         title: Text(
-          "Privacy Policy",
+          "Address Settings",
           style: TextStyle(
             fontWeight: FontWeight.w500,
             fontSize: 20,

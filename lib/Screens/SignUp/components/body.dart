@@ -2,7 +2,7 @@
 
 import 'package:auth_oriza/Screens/Login/login_screen.dart';
 import 'package:auth_oriza/components/already_have_an_account_check.dart';
-import 'package:auth_oriza/components/rounded_full_name.dart';
+import 'package:auth_oriza/components/rounded_full_name_field.dart';
 import 'package:auth_oriza/components/rounded_email_field.dart';
 import 'package:auth_oriza/components/rounded_password_field.dart';
 import 'package:auth_oriza/constant.dart';
@@ -30,13 +30,11 @@ class Body extends StatelessWidget {
             ),
           ),
           SizedBox(height: size.height * 0.025),
-          RoundedFullName(
-            hintText: "Enter Full Name...",
+          RoundedFullNameField(
             onChanged: (value) {},
           ),
           SizedBox(height: size.height * 0.0001),
           RoundedEmailField(
-            hintText: "Enter Email...",
             onChanged: (value) {},
           ),
           SizedBox(height: size.height * 0.0001),
