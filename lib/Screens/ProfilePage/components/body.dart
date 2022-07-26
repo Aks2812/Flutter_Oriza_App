@@ -1,5 +1,6 @@
 // ignore_for_file: deprecated_member_use
 
+import 'package:auth_oriza/Screens/AccountSettings/account_settings.dart';
 import 'package:auth_oriza/Screens/AddressSettings/address_settings.dart';
 import 'package:auth_oriza/Screens/ContactUs/contact_us.dart';
 import 'package:auth_oriza/Screens/Login/login_screen.dart';
@@ -26,21 +27,21 @@ class Body extends StatelessWidget {
           // ),
           SizedBox(height: size.height * 0.062),
           Material(
-            elevation: 12,
+            elevation: 15,
             shape: CircleBorder(),
             child: InkWell(
-              onTap: null,
+              onTap: () {},
               child: Container(
                 decoration: BoxDecoration(
                   color: Colors.transparent,
                   border: Border.all(
                     color: kColorOutlineProfileUser,
-                    width: 3,
+                    width: 6,
                   ),
                   shape: BoxShape.circle,
                 ),
                 child: Ink.image(
-                  image: AssetImage("assets/images/Profile_user.png"),
+                  image: AssetImage("assets/images/Pp_Gamer.png"),
                   height: 105,
                   width: 105,
                   fit: BoxFit.cover,
@@ -58,14 +59,14 @@ class Body extends StatelessWidget {
               shape: StadiumBorder(),
               color: kGreenBase,
               onPressed: () {
-                // Navigator.push(
-                //   context,
-                //   MaterialPageRoute(
-                //     builder: (context) {
-                //       return LoginScreen();
-                //     },
-                //   ),
-                // );
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) {
+                      return AccountSettings();
+                    },
+                  ),
+                );
               },
               label: Text(
                 "ACCOUNT SETTINGS",
