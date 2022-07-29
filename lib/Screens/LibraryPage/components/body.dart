@@ -1,5 +1,8 @@
 // ignore_for_file: prefer_const_literals_to_create_immutables
 
+import 'package:auth_oriza/Screens/GardeningTipsSection/gardeningtipspage.dart';
+import 'package:auth_oriza/Screens/TypesOfFertilizers/types_of_fertilizer.dart';
+import 'package:auth_oriza/Screens/TypesOfOrnamentalPlants/types_of_plants.dart';
 import 'package:auth_oriza/constant.dart';
 import 'package:flutter/material.dart';
 
@@ -26,7 +29,16 @@ class Body extends StatelessWidget {
                   clipBehavior: Clip.antiAliasWithSaveLayer,
                   child: InkWell(
                     splashColor: Colors.black38,
-                    onTap: () {},
+                    onTap: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) {
+                            return GardeningTipsPage();
+                          },
+                        ),
+                      );
+                    },
                     child: Column(
                       mainAxisSize: MainAxisSize.min,
                       children: [
@@ -41,7 +53,7 @@ class Body extends StatelessWidget {
                         //   width: size.width * 0.30,
                         // ),
                         Text(
-                          "Gardening Tips",
+                          "Gardening\nTips",
                           style: TextStyle(
                             fontSize: 13,
                             color: Colors.black,
@@ -64,7 +76,16 @@ class Body extends StatelessWidget {
                   clipBehavior: Clip.antiAliasWithSaveLayer,
                   child: InkWell(
                     splashColor: Colors.black38,
-                    onTap: () {},
+                    onTap: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) {
+                            return TypesOfOrnamentalPlantsPage();
+                          },
+                        ),
+                      );
+                    },
                     child: Column(
                       mainAxisSize: MainAxisSize.min,
                       children: [
@@ -80,12 +101,13 @@ class Body extends StatelessWidget {
                         //   width: size.width * 0.30,
                         // ),
                         Text(
-                          "Types of Plants",
+                          "Types of\nOrnamental Plants",
                           style: TextStyle(
-                            fontSize: 13,
+                            fontSize: 12.2,
                             color: Colors.black,
                             fontWeight: FontWeight.bold,
                           ),
+                          textAlign: TextAlign.center,
                         ),
                         SizedBox(
                           height: size.height * 0.009,
@@ -109,7 +131,16 @@ class Body extends StatelessWidget {
                   clipBehavior: Clip.antiAliasWithSaveLayer,
                   child: InkWell(
                     splashColor: Colors.black38,
-                    onTap: () {},
+                    onTap: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) {
+                            return TypesOfFertilizersPage();
+                          },
+                        ),
+                      );
+                    },
                     child: Column(
                       mainAxisSize: MainAxisSize.min,
                       children: [
@@ -125,7 +156,7 @@ class Body extends StatelessWidget {
                         //   width: size.width * 0.30,
                         // ),
                         Text(
-                          "Types of Fertilizer",
+                          "Types of\nFertilizers",
                           style: TextStyle(
                             fontSize: 13,
                             color: Colors.black,
@@ -163,12 +194,13 @@ class Body extends StatelessWidget {
                         //   width: size.width * 0.30,
                         // ),
                         Text(
-                          "Types of Pots",
+                          "Types of\nPots",
                           style: TextStyle(
                             fontSize: 13,
                             color: Colors.black,
                             fontWeight: FontWeight.bold,
                           ),
+                          textAlign: TextAlign.center,
                         ),
                         SizedBox(
                           height: size.height * 0.009,

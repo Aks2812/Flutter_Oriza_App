@@ -25,7 +25,7 @@ class Body extends StatelessWidget {
           SizedBox(
             width: size.width * 0.95,
             child: Text(
-              "Your username and email address successfully updated.",
+              "Your username and email address successfully changed.",
               style: TextStyle(
                 fontWeight: FontWeight.w500,
                 fontSize: 18,
