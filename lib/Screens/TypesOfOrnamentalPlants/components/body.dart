@@ -21,9 +21,20 @@ class Body extends StatelessWidget {
           SizedBox(
             width: size.width * 0.85,
             child: Text(
-              "\nThe ornamental plants can be divided into two categories, which are:\n- Herbaceous ornamental plants\n- Woody ornamental plants",
+              "\nThe ornamental plants can be divided into two categories, which are:",
               style: TextStyle(
-                fontWeight: FontWeight.w500,
+                fontWeight: FontWeight.bold,
+              ),
+              textAlign: TextAlign.left,
+            ),
+          ),
+          SizedBox(height: size.height * 0.01),
+          SizedBox(
+            width: size.width * 0.85,
+            child: Text(
+              "- Herbaceous ornamental plants\n- Woody ornamental plants.",
+              style: TextStyle(
+                fontWeight: FontWeight.w400,
               ),
               textAlign: TextAlign.left,
             ),
@@ -31,9 +42,20 @@ class Body extends StatelessWidget {
           SizedBox(
             width: size.width * 0.85,
             child: Text(
-              "\nA). Herbaceous ornamental plants:\nAnnuals:\n1.Winter season flowers: Dahlia, Poppy, Dianthus.\n2.Summer season flowers: Balsam, Cocks comb.\n3.All season flowers: Sunflower, Zinnia.",
+              "\nA). Herbaceous ornamental plants:",
               style: TextStyle(
-                fontWeight: FontWeight.w500,
+                fontWeight: FontWeight.bold,
+              ),
+              textAlign: TextAlign.left,
+            ),
+          ),
+          SizedBox(height: size.height * 0.01),
+          SizedBox(
+            width: size.width * 0.85,
+            child: Text(
+              "Annuals:\n1.Winter season flowers: Dahlia, Poppy, Dianthus.\n2.Summer season flowers: Balsam, Cocks comb.\n3.All season flowers: Sunflower, Zinnia.",
+              style: TextStyle(
+                fontWeight: FontWeight.w400,
               ),
               textAlign: TextAlign.left,
             ),
@@ -41,9 +63,20 @@ class Body extends StatelessWidget {
           SizedBox(
             width: size.width * 0.85,
             child: Text(
-              "\nB). Woody ornamental plants:\n1.Flowering shrubs: Rose, Jui, Beli, Mollika.\n2.Foliage trees: Rubber, Ashok, Banyan trees.\n3.The palms: Bottle palm, Fishtail palm, Toddy palm.\n4.Ornamental hedge plants: Duranta, Justicia, Iroxa.",
+              "\nB). Woody ornamental plants:",
               style: TextStyle(
-                fontWeight: FontWeight.w500,
+                fontWeight: FontWeight.bold,
+              ),
+              textAlign: TextAlign.left,
+            ),
+          ),
+          SizedBox(height: size.height * 0.01),
+          SizedBox(
+            width: size.width * 0.85,
+            child: Text(
+              "1.Flowering shrubs: Rose, Jui, Beli, Mollika.\n2.Foliage trees: Rubber, Ashok, Banyan trees.\n3.The palms: Bottle palm, Fishtail palm, Toddy palm.\n4.Ornamental hedge plants: Duranta, Justicia, Iroxa.",
+              style: TextStyle(
+                fontWeight: FontWeight.w400,
               ),
               textAlign: TextAlign.left,
             ),

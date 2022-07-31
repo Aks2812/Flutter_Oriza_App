@@ -12,16 +12,16 @@ class Body extends StatelessWidget {
       child: Column(
         children: <Widget>[
           Image.asset(
-            "assets/images/Gardening_tips.png",
-            height: size.height * 0.25,
-            width: size.width * 0.95,
+            "assets/images/Types_of_Ornamental_Pots.jpg",
+            height: size.height * 0.27,
+            width: size.width * 1,
             fit: BoxFit.contain,
           ),
-          SizedBox(height: size.height * 0.0001),
+          SizedBox(height: size.height * 0.01),
           SizedBox(
             width: size.width * 0.85,
             child: Text(
-              "\n1.Pick the right location—ideally,",
+              "\n1. HANGING POTS",
               style: TextStyle(
                 fontWeight: FontWeight.bold,
               ),
@@ -32,18 +32,17 @@ class Body extends StatelessWidget {
           SizedBox(
             width: size.width * 0.85,
             child: Text(
-              "a sunny site! Most vegetables need at least 6 hours of sun a day.",
+              "If you do not have much ground space in your home to set up a garden or place the pots, hanging pots can be the best alternative for you.",
               style: TextStyle(
                 fontWeight: FontWeight.w400,
               ),
               textAlign: TextAlign.left,
             ),
           ),
-          SizedBox(height: size.height * 0.01),
           SizedBox(
             width: size.width * 0.85,
             child: Text(
-              "\n2. Water needs to be readily available,",
+              "\n2. RAILING PLANTERS",
               style: TextStyle(
                 fontWeight: FontWeight.bold,
               ),
@@ -54,18 +53,17 @@ class Body extends StatelessWidget {
           SizedBox(
             width: size.width * 0.85,
             child: Text(
-              "Nothing burns out a beginning gardener faster than having to lug water to thirsty plants during a heat wave.",
+              "Due to the compact size of houses in urban areas, people do not get any space for gardening.",
               style: TextStyle(
                 fontWeight: FontWeight.w400,
               ),
               textAlign: TextAlign.left,
             ),
           ),
-          SizedBox(height: size.height * 0.01),
           SizedBox(
             width: size.width * 0.85,
             child: Text(
-              "\n3. Good soil is the key to a successful garden,",
+              "\n3. DECORATIVE POTS AND URN PLANTERS",
               style: TextStyle(
                 fontWeight: FontWeight.bold,
               ),
@@ -76,18 +74,17 @@ class Body extends StatelessWidget {
           SizedBox(
             width: size.width * 0.85,
             child: Text(
-              "Plants depend on the soil for nutrients, stability, and drainage.",
+              "These pots are eye-catching and provide an enhanced look to your garden. They come in different shapes and sizes.",
               style: TextStyle(
                 fontWeight: FontWeight.w400,
               ),
               textAlign: TextAlign.left,
             ),
           ),
-          SizedBox(height: size.height * 0.01),
           SizedBox(
             width: size.width * 0.85,
             child: Text(
-              "\n4. Keep it close to home,",
+              "\n4. PLASTIC POTS",
               style: TextStyle(
                 fontWeight: FontWeight.bold,
               ),
@@ -98,18 +95,17 @@ class Body extends StatelessWidget {
           SizedBox(
             width: size.width * 0.85,
             child: Text(
-              "A location near your house will make it easier for you to tend your plot regularly.",
+              "Available in colourful options, plastic pots are an attractive option for indoor as well as outdoor gardening.",
               style: TextStyle(
                 fontWeight: FontWeight.w400,
               ),
               textAlign: TextAlign.left,
             ),
           ),
-          SizedBox(height: size.height * 0.01),
           SizedBox(
             width: size.width * 0.85,
             child: Text(
-              "\n5. Amend your soil,",
+              "\n5. METAL POTS",
               style: TextStyle(
                 fontWeight: FontWeight.bold,
               ),
@@ -120,7 +116,7 @@ class Body extends StatelessWidget {
           SizedBox(
             width: size.width * 0.85,
             child: Text(
-              "Compost, leaf mold, or well-aged manure will increase the ability of your soil to both drain well and hold moisture—the sponge factor.",
+              "Metal planters give an elegant and unique look to your garden. They are made from materials like tin or steel.",
               style: TextStyle(
                 fontWeight: FontWeight.w400,
               ),

@@ -3,6 +3,7 @@
 import 'package:auth_oriza/Screens/GardeningTipsSection/gardeningtipspage.dart';
 import 'package:auth_oriza/Screens/TypesOfFertilizers/types_of_fertilizer.dart';
 import 'package:auth_oriza/Screens/TypesOfOrnamentalPlants/types_of_plants.dart';
+import 'package:auth_oriza/Screens/TypesOfOrnamentalPots/types_of_ornamental_pots.dart';
 import 'package:auth_oriza/constant.dart';
 import 'package:flutter/material.dart';
 
@@ -179,7 +180,16 @@ class Body extends StatelessWidget {
                   clipBehavior: Clip.antiAliasWithSaveLayer,
                   child: InkWell(
                     splashColor: Colors.black38,
-                    onTap: () {},
+                    onTap: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) {
+                            return TypesOfOrnamentalPotsPage();
+                          },
+                        ),
+                      );
+                    },
                     child: Column(
                       mainAxisSize: MainAxisSize.min,
                       children: [
@@ -194,7 +204,7 @@ class Body extends StatelessWidget {
                         //   width: size.width * 0.30,
                         // ),
                         Text(
-                          "Types of\nPots",
+                          "Types of\n Ornamental Pots",
                           style: TextStyle(
                             fontSize: 13,
                             color: Colors.black,
