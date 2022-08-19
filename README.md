@@ -35,7 +35,7 @@
 
 
 
-![Sign_Up_Page](https://user-images.githubusercontent.com/77261121/180653893-9b34ebc9-78d3-4964-9caa-3996026def27.png)   ![Login_Page](https://user-images.githubusercontent.com/77261121/180653895-e7c27792-99e5-492a-aa1a-98c3b932a488.png)   ![Forget_Password_Page](https://user-images.githubusercontent.com/77261121/181078687-a060a001-7f28-4c3b-a239-7e311a67d375.png)   ![Confirmation_ After_Forget_Password_Page](https://user-images.githubusercontent.com/77261121/180609616-bf9be9bf-ceda-4111-89d2-b25d358c915f.jpg)   ![Home_Page](https://user-images.githubusercontent.com/77261121/180609623-d0992640-dd69-4531-8706-c4bddb8e8412.png)   ![Search_Page](https://user-images.githubusercontent.com/77261121/180609682-feebbdaf-918a-4d2f-bd13-c175773051dc.png)
+![Sign_Up_Page](https://user-images.githubusercontent.com/77261121/180653893-9b34ebc9-78d3-4964-9caa-3996026def27.png)   ![Login_Page](https://user-images.githubusercontent.com/77261121/180653895-e7c27792-99e5-492a-aa1a-98c3b932a488.png)   ![Forget_Password_Page](https://user-images.githubusercontent.com/77261121/181078687-a060a001-7f28-4c3b-a239-7e311a67d375.png)   ![Confirmation_ After_Forget_Password_Page](https://user-images.githubusercontent.com/77261121/180609616-bf9be9bf-ceda-4111-89d2-b25d358c915f.jpg)   ![Home_Page 2 0](https://user-images.githubusercontent.com/77261121/185644659-cfcab2a3-c9fa-499c-913e-9f9abfef4103.png)   ![Search_Page](https://user-images.githubusercontent.com/77261121/180609682-feebbdaf-918a-4d2f-bd13-c175773051dc.png)
 ![Library_Page](https://user-images.githubusercontent.com/77261121/182028276-96d5cd99-364b-47eb-82b2-50fabed9b253.png)  ![Profile_Page](https://user-images.githubusercontent.com/77261121/181078884-e8dc17c8-cc1f-4873-bf6f-9554942da0ce.png)
 
 
@@ -66,10 +66,10 @@
 
 
 
-# Screenshot for Profile Side Feature:
+# Screenshot for Home Side Feature:
 
 
-![Account_Settings_Page](https://user-images.githubusercontent.com/77261121/181079076-1e213f44-1dd7-4847-b7d6-adba97c6e09e.png)   ![Confirmation_ Page_1](https://user-images.githubusercontent.com/77261121/181773487-3706b5de-e29d-4c1d-b247-147fae044710.png)   ![Change_Pass_Verify_Curr_Pass_Page](https://user-images.githubusercontent.com/77261121/181079130-1dbd89b7-869c-469d-9707-b72758ee5ea7.png)   ![Change_Pass_to_New_Pass_Page](https://user-images.githubusercontent.com/77261121/181079139-a0ccc4a3-2ca0-428c-ada9-25d48e3081b3.png)   ![Confirmation_ Page_2](https://user-images.githubusercontent.com/77261121/181773510-5c658c55-fd14-4cc9-8b79-34e71b55062d.png)   ![Address_Settings_Page](https://user-images.githubusercontent.com/77261121/180653939-4c165c9c-19b8-49c7-9fd5-8ab9a474b7e6.png)   ![Privacy_Policy_ Page](https://user-images.githubusercontent.com/77261121/180610812-a3e1ee94-5476-4179-9b0f-0f856f2c7f49.png)   ![Contact_Us_Page](https://user-images.githubusercontent.com/77261121/180610823-835f2474-820f-4fe1-b38b-835f7a413b28.png)   
+![Plant_Page 1 0](https://user-images.githubusercontent.com/77261121/185644570-4db12e3f-3ea2-4150-abb8-25cc456a970e.png)
 
 
 
@@ -79,3 +79,10 @@
 
 ![Gardening_Tips_ Page](https://user-images.githubusercontent.com/77261121/182028290-32a89aa5-cff9-4517-a2aa-0893b1fff0b2.png)   ![Types_of_ Ornamental_ Plants_Page](https://user-images.githubusercontent.com/77261121/182028305-1ebcd41b-5ac6-4962-a8a4-46d138da67ad.png)   ![Types_of_ Fertilizers_Page](https://user-images.githubusercontent.com/77261121/182028320-c58b174f-573a-4d7f-a766-ec962c5ad8b5.png)   ![Types_of_ Ornamental_Pots_Page](https://user-images.githubusercontent.com/77261121/182028329-8cada7af-d826-4f83-b69b-9990875e60b6.png)
 
+
+
+
+# Screenshot for Profile Side Feature:
+
+
+![Account_Settings_Page](https://user-images.githubusercontent.com/77261121/181079076-1e213f44-1dd7-4847-b7d6-adba97c6e09e.png)   ![Confirmation_ Page_1](https://user-images.githubusercontent.com/77261121/181773487-3706b5de-e29d-4c1d-b247-147fae044710.png)   ![Change_Pass_Verify_Curr_Pass_Page](https://user-images.githubusercontent.com/77261121/181079130-1dbd89b7-869c-469d-9707-b72758ee5ea7.png)   ![Change_Pass_to_New_Pass_Page](https://user-images.githubusercontent.com/77261121/181079139-a0ccc4a3-2ca0-428c-ada9-25d48e3081b3.png)   ![Confirmation_ Page_2](https://user-images.githubusercontent.com/77261121/181773510-5c658c55-fd14-4cc9-8b79-34e71b55062d.png)   ![Address_Settings_Page](https://user-images.githubusercontent.com/77261121/180653939-4c165c9c-19b8-49c7-9fd5-8ab9a474b7e6.png)   ![Privacy_Policy_ Page](https://user-images.githubusercontent.com/77261121/180610812-a3e1ee94-5476-4179-9b0f-0f856f2c7f49.png)   ![Contact_Us_Page](https://user-images.githubusercontent.com/77261121/180610823-835f2474-820f-4fe1-b38b-835f7a413b28.png)   
