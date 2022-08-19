@@ -63,7 +63,7 @@ final allData = <Data1>[
     price: "\$25.99",
   ),
   Data1(
-    name: "Sanseviera / mother-in-law's tongue",
+    name: "Sanseviera",
     assetImage: "assets/plant/Lidah Mertua - 15.000.jpg",
     price: "\$15.99",
   ),

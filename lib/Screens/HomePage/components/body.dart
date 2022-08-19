@@ -1,5 +1,6 @@
 // ignore_for_file: prefer_const_literals_to_create_immutables
 
+import 'package:auth_oriza/Screens/PlantsSection/plants.dart';
 import 'package:auth_oriza/constant.dart';
 import 'package:flutter/material.dart';
 
@@ -31,7 +32,16 @@ class Body extends StatelessWidget {
                   clipBehavior: Clip.antiAliasWithSaveLayer,
                   child: InkWell(
                     splashColor: Colors.black26,
-                    onTap: () {},
+                    onTap: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) {
+                            return PlantsSection();
+                          },
+                        ),
+                      );
+                    },
                     child: Container(
                       decoration: BoxDecoration(
                         color: Colors.transparent,
@@ -139,45 +149,9 @@ class Body extends StatelessWidget {
           SizedBox(
             height: size.height * 0.17,
             child: Row(
-              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              mainAxisAlignment: MainAxisAlignment.start,
               children: <Widget>[
-                Material(
-                  elevation: 10,
-                  borderRadius: BorderRadius.all(Radius.circular(25)),
-                  clipBehavior: Clip.antiAliasWithSaveLayer,
-                  child: InkWell(
-                    splashColor: Colors.black26,
-                    onTap: () {},
-                    child: Container(
-                      decoration: BoxDecoration(
-                        color: Colors.transparent,
-                        border: Border.all(color: kGreenBaseOutline, width: 3),
-                        borderRadius: BorderRadius.circular(25),
-                      ),
-                      child: Column(
-                        mainAxisSize: MainAxisSize.min,
-                        children: [
-                          Ink.image(
-                            image:
-                                AssetImage("assets/images/Icon_Reminder.png"),
-                            height: size.height * 0.1,
-                            width: size.width * 0.17,
-                            fit: BoxFit.fitWidth,
-                          ),
-                          SizedBox(height: size.height * 0.0001),
-                          Text(
-                            "Remind",
-                            style: TextStyle(
-                              fontSize: 11,
-                              color: Colors.black,
-                              fontWeight: FontWeight.w600,
-                            ),
-                          ),
-                        ],
-                      ),
-                    ),
-                  ),
-                ),
+                SizedBox(width: size.width * 0.11),
                 Material(
                   elevation: 10,
                   borderRadius: BorderRadius.all(Radius.circular(25)),
@@ -198,13 +172,13 @@ class Body extends StatelessWidget {
                             image: AssetImage("assets/images/Icon_Store.png"),
                             height: size.height * 0.1,
                             width: size.width * 0.17,
-                            fit: BoxFit.scaleDown,
+                            fit: BoxFit.fitWidth,
                           ),
                           SizedBox(height: size.height * 0.0001),
                           Text(
                             "Store",
                             style: TextStyle(
-                              fontSize: 13,
+                              fontSize: 11,
                               color: Colors.black,
                               fontWeight: FontWeight.w600,
                             ),
@@ -214,6 +188,7 @@ class Body extends StatelessWidget {
                     ),
                   ),
                 ),
+                SizedBox(width: size.width * 0.11),
                 Material(
                   elevation: 10,
                   borderRadius: BorderRadius.all(Radius.circular(25)),
@@ -231,16 +206,16 @@ class Body extends StatelessWidget {
                         mainAxisSize: MainAxisSize.min,
                         children: [
                           Ink.image(
-                            image: AssetImage("assets/images/Icon_List.png"),
+                            image: AssetImage("assets/images/Icon_more2.png"),
                             height: size.height * 0.1,
                             width: size.width * 0.17,
                             fit: BoxFit.contain,
                           ),
                           SizedBox(height: size.height * 0.0001),
                           Text(
-                            "List",
+                            "More",
                             style: TextStyle(
-                              fontSize: 12,
+                              fontSize: 13,
                               color: Colors.black,
                               fontWeight: FontWeight.w600,
                             ),
