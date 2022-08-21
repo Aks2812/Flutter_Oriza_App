@@ -35,7 +35,7 @@
 
 
 
-![Sign_Up_Page](https://user-images.githubusercontent.com/77261121/180653893-9b34ebc9-78d3-4964-9caa-3996026def27.png)   ![Login_Page](https://user-images.githubusercontent.com/77261121/180653895-e7c27792-99e5-492a-aa1a-98c3b932a488.png)   ![Forget_Password_Page](https://user-images.githubusercontent.com/77261121/181078687-a060a001-7f28-4c3b-a239-7e311a67d375.png)   ![Confirmation_ After_Forget_Password_Page](https://user-images.githubusercontent.com/77261121/180609616-bf9be9bf-ceda-4111-89d2-b25d358c915f.jpg)   ![Home_Page 2 0](https://user-images.githubusercontent.com/77261121/185644659-cfcab2a3-c9fa-499c-913e-9f9abfef4103.png)   ![Search_Page](https://user-images.githubusercontent.com/77261121/180609682-feebbdaf-918a-4d2f-bd13-c175773051dc.png)
+![Sign_Up_Page](https://user-images.githubusercontent.com/77261121/180653893-9b34ebc9-78d3-4964-9caa-3996026def27.png)   ![Login_Page](https://user-images.githubusercontent.com/77261121/180653895-e7c27792-99e5-492a-aa1a-98c3b932a488.png)   ![Forget_Password_Page](https://user-images.githubusercontent.com/77261121/181078687-a060a001-7f28-4c3b-a239-7e311a67d375.png)   ![Confirmation_ After_Forget_Password_Page](https://user-images.githubusercontent.com/77261121/180609616-bf9be9bf-ceda-4111-89d2-b25d358c915f.jpg)   ![Home_Page 3 0](https://user-images.githubusercontent.com/77261121/185793276-59755995-c8bb-49e8-8d27-67732d37c8d5.png)   ![Search_Page](https://user-images.githubusercontent.com/77261121/180609682-feebbdaf-918a-4d2f-bd13-c175773051dc.png)
 ![Library_Page](https://user-images.githubusercontent.com/77261121/182028276-96d5cd99-364b-47eb-82b2-50fabed9b253.png)  ![Profile_Page](https://user-images.githubusercontent.com/77261121/181078884-e8dc17c8-cc1f-4873-bf6f-9554942da0ce.png)
 
 
@@ -47,9 +47,9 @@
  - Plant      => [Home Side Feature]
  - Pot        => [Home Side Feature]
  - Supply     => [Home Side Feature]
- - Remind     => [Home Side Feature]
  - Store      => [Home Side Feature]
- - To do list => [Home Side Feature]
+ - List       => [Home Side Feature]
+ - More       => [Home Side Feature]
  ------------------------------------
  - Gardening tips             => [Library Side Feature]
  - Types of Ornamental Plants => [Library Side Feature]
@@ -69,7 +69,7 @@
 # Screenshot for Home Side Feature:
 
 
-![Plant_Page 1 0](https://user-images.githubusercontent.com/77261121/185644570-4db12e3f-3ea2-4150-abb8-25cc456a970e.png)
+![Plant_Page 2 0](https://user-images.githubusercontent.com/77261121/185793309-11692a61-4899-437c-af3a-200166df13ab.png)
 
 
 
