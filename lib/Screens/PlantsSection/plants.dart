@@ -1,4 +1,5 @@
 import 'package:auth_oriza/Screens/PlantsSection/components/body.dart';
+import 'package:auth_oriza/Screens/PlantsSection/components/body1.dart';
 import 'package:auth_oriza/constant.dart';
 import 'package:flutter/material.dart';
 

@@ -12,6 +12,7 @@ class Body extends StatefulWidget {
 
 class _BodyState extends State<Body> {
   late List<Products> products;
+  int productCount = 0;
 
   @override
   void initState() {
@@ -28,7 +29,7 @@ class _BodyState extends State<Body> {
       height: size.height * 1,
       child: Column(
         children: <Widget>[
-          Expanded(
+          Flexible(
             child: ListView.builder(
               itemCount: products.length,
               itemBuilder: (BuildContext context, int index) {
@@ -41,24 +42,34 @@ class _BodyState extends State<Body> {
                     ),
                   ),
                   child: ListTile(
-                      leading: CircleAvatar(
-                        backgroundImage: AssetImage(product.image),
-                      ),
-                      title: Text(product.title),
-                      subtitle: Text(product.price),
-                      trailing: Wrap(
-                        spacing: 0.1,
-                        children: <Widget>[
-                          IconButton(
-                            onPressed: () {},
-                            icon: Icon(Icons.remove_circle_outline_sharp),
+                    leading: CircleAvatar(
+                      backgroundImage: AssetImage(product.image),
+                    ),
+                    title: Text(product.title),
+                    subtitle: Text(product.price),
+                    trailing: Row(
+                      mainAxisSize: MainAxisSize.min,
+                      children: [
+                        IconButton(
+                          onPressed: () => setState(
+                            () => productCount != 0
+                                ? productCount--
+                                : productCount,
                           ),
-                          IconButton(
-                            onPressed: () {},
-                            icon: Icon(Icons.add_circle_outline_sharp),
+                          // onPressed: () {},
+                          icon: Icon(Icons.remove_circle_outline_sharp),
+                        ),
+                        Text(productCount.toString()),
+                        IconButton(
+                          onPressed: () => setState(
+                            () => productCount++,
                           ),
-                        ],
-                      )),
+                          // onPressed: () {},
+                          icon: Icon(Icons.add_circle_outline_sharp),
+                        ),
+                      ],
+                    ),
+                  ),
                 );
               },
             ),

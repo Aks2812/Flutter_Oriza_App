@@ -64,6 +64,7 @@ flutter:
      - assets/plant/
      - assets/pot/
      - assets/supply/
+     - assets/more_icons_temp_list/
 
 
   # An image asset can refer to one or more resolution-specific "variants", see

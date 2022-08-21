@@ -97,7 +97,7 @@ class Body extends StatelessWidget {
                           Text(
                             "Pot",
                             style: TextStyle(
-                              fontSize: 13,
+                              fontSize: 12,
                               color: Colors.black,
                               fontWeight: FontWeight.w600,
                             ),
@@ -149,9 +149,8 @@ class Body extends StatelessWidget {
           SizedBox(
             height: size.height * 0.17,
             child: Row(
-              mainAxisAlignment: MainAxisAlignment.start,
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: <Widget>[
-                SizedBox(width: size.width * 0.11),
                 Material(
                   elevation: 10,
                   borderRadius: BorderRadius.all(Radius.circular(25)),
@@ -178,7 +177,7 @@ class Body extends StatelessWidget {
                           Text(
                             "Store",
                             style: TextStyle(
-                              fontSize: 11,
+                              fontSize: 12,
                               color: Colors.black,
                               fontWeight: FontWeight.w600,
                             ),
@@ -188,7 +187,6 @@ class Body extends StatelessWidget {
                     ),
                   ),
                 ),
-                SizedBox(width: size.width * 0.11),
                 Material(
                   elevation: 10,
                   borderRadius: BorderRadius.all(Radius.circular(25)),
@@ -206,7 +204,44 @@ class Body extends StatelessWidget {
                         mainAxisSize: MainAxisSize.min,
                         children: [
                           Ink.image(
-                            image: AssetImage("assets/images/Icon_more2.png"),
+                            image: AssetImage("assets/images/Icon_List.png"),
+                            height: size.height * 0.1,
+                            width: size.width * 0.17,
+                            fit: BoxFit.fitWidth,
+                          ),
+                          SizedBox(height: size.height * 0.0001),
+                          Text(
+                            "List",
+                            style: TextStyle(
+                              fontSize: 12,
+                              color: Colors.black,
+                              fontWeight: FontWeight.w600,
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ),
+                ),
+                Material(
+                  elevation: 10,
+                  borderRadius: BorderRadius.all(Radius.circular(25)),
+                  clipBehavior: Clip.antiAliasWithSaveLayer,
+                  child: InkWell(
+                    splashColor: Colors.black26,
+                    onTap: () {},
+                    child: Container(
+                      decoration: BoxDecoration(
+                        color: Colors.transparent,
+                        border: Border.all(color: kGreenBaseOutline, width: 3),
+                        borderRadius: BorderRadius.circular(25),
+                      ),
+                      child: Column(
+                        mainAxisSize: MainAxisSize.min,
+                        children: [
+                          Ink.image(
+                            image: AssetImage(
+                                "assets/more_icons_temp_list/Icon_More5.png"),
                             height: size.height * 0.1,
                             width: size.width * 0.17,
                             fit: BoxFit.contain,
@@ -215,7 +250,7 @@ class Body extends StatelessWidget {
                           Text(
                             "More",
                             style: TextStyle(
-                              fontSize: 13,
+                              fontSize: 12,
                               color: Colors.black,
                               fontWeight: FontWeight.w600,
                             ),
