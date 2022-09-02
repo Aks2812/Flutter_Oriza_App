@@ -1,9 +1,15 @@
-import 'package:auth_oriza/Screens/PlantsSection/components/body1.dart';
+import 'package:auth_oriza/Screens/PlantsSection/components/value_data.dart';
+import 'package:auth_oriza/Screens/PlantsSection/details/components/body_details.dart';
 import 'package:auth_oriza/constant.dart';
 import 'package:flutter/material.dart';
 
-class PlantsSection extends StatelessWidget {
-  const PlantsSection({Key? key}) : super(key: key);
+class PlantsDetails extends StatelessWidget {
+  final Products products;
+
+  const PlantsDetails({
+    Key? key,
+    required this.products,
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -12,21 +18,15 @@ class PlantsSection extends StatelessWidget {
         centerTitle: true,
         automaticallyImplyLeading: true,
         title: Text(
-          "Plant",
+          products.title,
           style: TextStyle(
             fontWeight: FontWeight.w500,
             fontSize: 20,
           ),
         ),
-        // actions: <Widget>[
-        //   IconButton(
-        //     icon: Icon(Icons.shopping_cart_checkout),
-        //     onPressed: () {},
-        //   ),
-        // ],
         backgroundColor: kGreenBase,
       ),
-      body: Body1(),
+      body: BodyDetails(),
     );
   }
 }

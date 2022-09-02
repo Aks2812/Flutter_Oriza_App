@@ -2,6 +2,7 @@
 
 import 'package:auth_oriza/Screens/PlantsSection/components/dummy_data.dart';
 import 'package:auth_oriza/Screens/PlantsSection/components/value_data.dart';
+import 'package:auth_oriza/Screens/PlantsSection/details/plants_details.dart';
 import 'package:auth_oriza/constant.dart';
 import 'package:flutter/material.dart';
 
@@ -55,14 +56,16 @@ class _Body1State extends State<Body1> {
                       shape: StadiumBorder(),
                       color: kGreenBase,
                       onPressed: () {
-                        // Navigator.push(
-                        //   context,
-                        //   MaterialPageRoute(
-                        //     builder: (context) {
-                        //       return AccountSettings();
-                        //     },
-                        //   ),
-                        // );
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) {
+                              return PlantsDetails(
+                                products: products[index],
+                              );
+                            },
+                          ),
+                        );
                       },
                       label: Text(
                         "Get",

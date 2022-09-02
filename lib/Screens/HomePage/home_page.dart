@@ -19,6 +19,7 @@ class HomePage extends StatelessWidget {
           ),
         ),
         backgroundColor: kGreenBase,
+        elevation: 0,
       ),
       body: Body(),
     );
