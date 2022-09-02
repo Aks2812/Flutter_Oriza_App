@@ -69,8 +69,7 @@
 # Screenshot for Home Side Feature:
 
 
-![Plant_Page 2 0](https://user-images.githubusercontent.com/77261121/185793309-11692a61-4899-437c-af3a-200166df13ab.png)
-
+![Plant_Page 3 0](https://user-images.githubusercontent.com/77261121/188168347-41d77e5b-632b-47e9-97e9-15c30da717d4.png)
 
 
 
