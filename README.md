@@ -35,7 +35,7 @@
 
 
 
-![Sign_Up_Page](https://user-images.githubusercontent.com/77261121/180653893-9b34ebc9-78d3-4964-9caa-3996026def27.png)   ![Login_Page](https://user-images.githubusercontent.com/77261121/180653895-e7c27792-99e5-492a-aa1a-98c3b932a488.png)   ![Forget_Password_Page](https://user-images.githubusercontent.com/77261121/181078687-a060a001-7f28-4c3b-a239-7e311a67d375.png)   ![Confirmation_ After_Forget_Password_Page](https://user-images.githubusercontent.com/77261121/180609616-bf9be9bf-ceda-4111-89d2-b25d358c915f.jpg)   ![Home_Page 3 0](https://user-images.githubusercontent.com/77261121/185793276-59755995-c8bb-49e8-8d27-67732d37c8d5.png)   ![Search_Page](https://user-images.githubusercontent.com/77261121/180609682-feebbdaf-918a-4d2f-bd13-c175773051dc.png)
+![Sign_Up_Page](https://user-images.githubusercontent.com/77261121/180653893-9b34ebc9-78d3-4964-9caa-3996026def27.png)   ![Login_Page](https://user-images.githubusercontent.com/77261121/180653895-e7c27792-99e5-492a-aa1a-98c3b932a488.png)   ![Forget_Password_Page](https://user-images.githubusercontent.com/77261121/181078687-a060a001-7f28-4c3b-a239-7e311a67d375.png)   ![Confirmation_ After_Forget_Password_Page](https://user-images.githubusercontent.com/77261121/180609616-bf9be9bf-ceda-4111-89d2-b25d358c915f.jpg)   ![Home_Page 3 0](https://user-images.githubusercontent.com/77261121/185793276-59755995-c8bb-49e8-8d27-67732d37c8d5.png)   ![Search_Page](https://user-images.githubusercontent.com/77261121/188430769-7622c038-57b3-41a5-8faa-105adad16f1c.png)
 ![Library_Page](https://user-images.githubusercontent.com/77261121/182028276-96d5cd99-364b-47eb-82b2-50fabed9b253.png)  ![Profile_Page](https://user-images.githubusercontent.com/77261121/181078884-e8dc17c8-cc1f-4873-bf6f-9554942da0ce.png)
 
 
@@ -69,7 +69,8 @@
 # Screenshot for Home Side Feature:
 
 
-![Plant_Page 3 0](https://user-images.githubusercontent.com/77261121/188168347-41d77e5b-632b-47e9-97e9-15c30da717d4.png)
+![Plant_Page 4 0](https://user-images.githubusercontent.com/77261121/188429313-d4454cbd-a004-4a08-8284-ae69ba6e0ae4.png)   ![Plant_Details](https://user-images.githubusercontent.com/77261121/188429407-8af9baf3-5ac0-4e8c-871b-f57d0bddd0ea.png)   ![Pot_Page](https://user-images.githubusercontent.com/77261121/188429513-921ca70c-803e-4a31-b61a-1c88e06ecbdd.png)   ![Pot_Details](https://user-images.githubusercontent.com/77261121/188429557-520a7236-195a-4e63-9251-8ee4d7d85919.png)   
+![Supply_Page](https://user-images.githubusercontent.com/77261121/188429621-c6179a4b-bf3f-4880-b5d6-fecf4d245206.png)   ![Supply_Details](https://user-images.githubusercontent.com/77261121/188429667-fdcd22b6-0ee6-4004-9e83-e0f4ed65122d.png)   ![List_Page 1 0](https://user-images.githubusercontent.com/77261121/188429824-c87bacea-2d4f-474d-b666-1d1641997385.png)   ![List_Page 2 0](https://user-images.githubusercontent.com/77261121/188429847-761c3606-1c74-4ce3-a7ae-ddd2ffee4e40.png)
 
 
 
