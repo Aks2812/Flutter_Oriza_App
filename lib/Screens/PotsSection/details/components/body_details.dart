@@ -1,13 +1,16 @@
 // ignore_for_file: deprecated_member_use
 
-import 'package:auth_oriza/Screens/PlantsSection/components/value_data.dart';
+import 'package:auth_oriza/Screens/PotsSection/components/value_data_pots.dart';
 import 'package:auth_oriza/constant.dart';
 import 'package:flutter/material.dart';
 
 class BodyDetails extends StatelessWidget {
-  final Products products;
+  final Products1 products1;
 
-  const BodyDetails({Key? key, required this.products}) : super(key: key);
+  const BodyDetails({
+    Key? key,
+    required this.products1,
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -18,33 +21,11 @@ class BodyDetails extends StatelessWidget {
       child: Column(
         children: <Widget>[
           Image.asset(
-            products.image,
+            products1.image,
             height: size.height * 0.3,
             width: size.width,
             fit: BoxFit.contain,
           ),
-          // SizedBox(height: size.height * 0.03),
-          // SizedBox(
-          //   width: size.width * 0.92,
-          //   child: Text(
-          //     "Product name ",
-          //     style: TextStyle(
-          //       fontWeight: FontWeight.normal,
-          //       fontSize: 16,
-          //     ),
-          //   ),
-          // ),
-          // SizedBox(height: size.height * 0.01),
-          // SizedBox(
-          //   width: size.width * 0.92,
-          //   child: Text(
-          //     products.title,
-          //     style: TextStyle(
-          //       fontWeight: FontWeight.w700,
-          //       fontSize: 15,
-          //     ),
-          //   ),
-          // ),
           SizedBox(height: size.height * 0.03),
           SizedBox(
             width: size.width * 0.92,
@@ -60,7 +41,7 @@ class BodyDetails extends StatelessWidget {
           SizedBox(
             width: size.width * 0.92,
             child: Text(
-              products.description,
+              products1.description,
               style: TextStyle(
                 fontWeight: FontWeight.w700,
                 fontSize: 15,
@@ -82,7 +63,7 @@ class BodyDetails extends StatelessWidget {
           SizedBox(
             width: size.width * 0.92,
             child: Text(
-              products.price,
+              products1.price,
               style: TextStyle(
                 fontWeight: FontWeight.w700,
                 fontSize: 15,
@@ -92,7 +73,7 @@ class BodyDetails extends StatelessWidget {
           SizedBox(height: size.height * 0.03),
           SizedBox(
             width: size.width * 0.9,
-            child: CounterProduct(),
+            child: CounterProduct1(),
           ),
           SizedBox(height: size.height * 0.015),
           Padding(
@@ -145,29 +126,19 @@ class BodyDetails extends StatelessWidget {
   }
 }
 
-class CounterProduct extends StatefulWidget {
-  const CounterProduct({Key? key}) : super(key: key);
+class CounterProduct1 extends StatefulWidget {
+  const CounterProduct1({Key? key}) : super(key: key);
 
   @override
-  State<CounterProduct> createState() => _CounterProductState();
+  State<CounterProduct1> createState() => _CounterProduct1State();
 }
 
-class _CounterProductState extends State<CounterProduct> {
-  int productCount = 1;
+class _CounterProduct1State extends State<CounterProduct1> {
+  int productCount1 = 1;
   @override
   Widget build(BuildContext context) {
     return Row(
       children: <Widget>[
-        // buildOutlineButton(
-        //   icon: Icons.remove_circle_outline_sharp,
-        //   press: () {
-        //     if (productCount > 1) {
-        //       setState(() {
-        //         productCount--;
-        //       });
-        //     }
-        //   },
-        // ),
         SizedBox(
           width: 40,
           height: 32,
@@ -177,9 +148,9 @@ class _CounterProductState extends State<CounterProduct> {
               borderRadius: BorderRadius.circular(13),
             ),
             onPressed: () {
-              if (productCount > 1) {
+              if (productCount1 > 1) {
                 setState(() {
-                  productCount--;
+                  productCount1--;
                 });
               }
             },
@@ -189,7 +160,7 @@ class _CounterProductState extends State<CounterProduct> {
         Padding(
           padding: const EdgeInsets.symmetric(horizontal: 10),
           child: Text(
-            productCount.toString().padLeft(2, "0"),
+            productCount1.toString().padLeft(2, "0"),
             style: Theme.of(context).textTheme.headline6,
           ),
         ),
@@ -203,39 +174,13 @@ class _CounterProductState extends State<CounterProduct> {
             ),
             onPressed: () {
               setState(() {
-                productCount++;
+                productCount1++;
               });
             },
             child: Icon(Icons.add_circle_outline_sharp),
           ),
         ),
-        // buildOutlineButton(
-        //   icon: Icons.add_circle_outline_sharp,
-        //   press: () {
-        //     setState(() {
-        //       productCount++;
-        //     });
-        //   },
-        // )
       ],
     );
   }
-
-//   SizedBox buildOutlineButton({IconData? icon, Function? press}) {
-//     return SizedBox(
-//       width: 40,
-//       height: 32,
-//       child: OutlineButton(
-//         padding: EdgeInsets.zero,
-//         shape: RoundedRectangleBorder(
-//           borderRadius: BorderRadius.circular(13),
-//         ),
-//         onPressed: press!(),
-//         child: Icon(icon),
-//       ),
-//     );
-//   }
-
-//   Function press(Function press) => press;
-// }
 }

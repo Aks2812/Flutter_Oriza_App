@@ -1,6 +1,9 @@
 // ignore_for_file: prefer_const_literals_to_create_immutables
 
+import 'package:auth_oriza/Screens/ListSection/list.dart';
 import 'package:auth_oriza/Screens/PlantsSection/plants.dart';
+import 'package:auth_oriza/Screens/PotsSection/pots.dart';
+import 'package:auth_oriza/Screens/SupplySection/supply.dart';
 import 'package:auth_oriza/constant.dart';
 import 'package:flutter/material.dart';
 
@@ -77,7 +80,16 @@ class Body extends StatelessWidget {
                   clipBehavior: Clip.antiAliasWithSaveLayer,
                   child: InkWell(
                     splashColor: Colors.black26,
-                    onTap: () {},
+                    onTap: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) {
+                            return PotsSection();
+                          },
+                        ),
+                      );
+                    },
                     child: Container(
                       decoration: BoxDecoration(
                         color: Colors.transparent,
@@ -113,7 +125,16 @@ class Body extends StatelessWidget {
                   clipBehavior: Clip.antiAliasWithSaveLayer,
                   child: InkWell(
                     splashColor: Colors.black26,
-                    onTap: () {},
+                    onTap: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) {
+                            return SupplySection();
+                          },
+                        ),
+                      );
+                    },
                     child: Container(
                       decoration: BoxDecoration(
                         color: Colors.transparent,
@@ -193,7 +214,16 @@ class Body extends StatelessWidget {
                   clipBehavior: Clip.antiAliasWithSaveLayer,
                   child: InkWell(
                     splashColor: Colors.black26,
-                    onTap: () {},
+                    onTap: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) {
+                            return List();
+                          },
+                        ),
+                      );
+                    },
                     child: Container(
                       decoration: BoxDecoration(
                         color: Colors.transparent,

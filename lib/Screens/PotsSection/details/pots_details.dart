@@ -1,30 +1,30 @@
-import 'package:auth_oriza/Screens/PlantsSection/components/value_data.dart';
-import 'package:auth_oriza/Screens/PlantsSection/details/components/body_details.dart';
+import 'package:auth_oriza/Screens/PotsSection/components/value_data_pots.dart';
+import 'package:auth_oriza/Screens/PotsSection/details/components/body_details.dart';
 import 'package:auth_oriza/constant.dart';
 import 'package:flutter/material.dart';
 
-class PlantsDetails extends StatelessWidget {
-  final Products products;
+class PotsDetails extends StatelessWidget {
+  final Products1 products1;
 
-  const PlantsDetails({
+  const PotsDetails({
     Key? key,
-    required this.products,
+    required this.products1,
   }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: buildappbar(context),
-      body: BodyDetails(products: products),
+      appBar: buildAppBar(context),
+      body: BodyDetails(products1: products1),
     );
   }
 
-  AppBar buildappbar(BuildContext context) {
+  AppBar buildAppBar(BuildContext context) {
     return AppBar(
       centerTitle: true,
       automaticallyImplyLeading: true,
       title: Text(
-        products.title,
+        products1.title,
         style: TextStyle(
           fontWeight: FontWeight.w500,
           fontSize: 20,

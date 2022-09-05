@@ -16,7 +16,7 @@ class Body extends StatelessWidget {
     Size size = MediaQuery.of(context).size;
     return SizedBox(
       width: size.width * 1,
-      height: size.height * 0.5,
+      height: size.height * 0.52,
       child: Column(
         mainAxisSize: MainAxisSize.max,
         mainAxisAlignment: MainAxisAlignment.center,

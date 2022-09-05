@@ -1,27 +1,27 @@
 // ignore_for_file: deprecated_member_use
 
-import 'package:auth_oriza/Screens/PlantsSection/components/dummy_data.dart';
-import 'package:auth_oriza/Screens/PlantsSection/components/value_data.dart';
-import 'package:auth_oriza/Screens/PlantsSection/details/plants_details.dart';
+import 'package:auth_oriza/Screens/SupplySection/components/dummy_data_supply.dart';
+import 'package:auth_oriza/Screens/SupplySection/components/value_data_supply.dart';
+import 'package:auth_oriza/Screens/SupplySection/details/supply_details.dart';
 import 'package:auth_oriza/constant.dart';
 import 'package:flutter/material.dart';
 
-class Body1 extends StatefulWidget {
-  const Body1({Key? key}) : super(key: key);
+class Body3 extends StatefulWidget {
+  const Body3({Key? key}) : super(key: key);
 
   @override
-  State<Body1> createState() => _Body1State();
+  State<Body3> createState() => _Body3State();
 }
 
-class _Body1State extends State<Body1> {
-  late List<Products> products;
+class _Body3State extends State<Body3> {
+  late List<Products2> products2;
   int productCount = 0;
 
   @override
   void initState() {
     super.initState();
 
-    products = allProducts;
+    products2 = allProducts2;
   }
 
   @override
@@ -34,9 +34,9 @@ class _Body1State extends State<Body1> {
         children: <Widget>[
           Flexible(
             child: ListView.builder(
-              itemCount: products.length,
+              itemCount: products2.length,
               itemBuilder: (BuildContext context, int index) {
-                final product = products[index];
+                final product2 = products2[index];
 
                 return Container(
                   decoration: BoxDecoration(
@@ -46,12 +46,11 @@ class _Body1State extends State<Body1> {
                   ),
                   child: ListTile(
                     leading: CircleAvatar(
-                      backgroundImage: AssetImage(product.image),
+                      backgroundImage: AssetImage(product2.image),
                     ),
-                    title: Text(product.title),
-                    subtitle: Text(product.price),
+                    title: Text(product2.title),
+                    subtitle: Text(product2.price),
                     trailing: FlatButton(
-                      // padding: EdgeInsets.symmetric(vertical: 20, horizontal: 40),
                       splashColor: Colors.white38,
                       shape: StadiumBorder(),
                       color: kGreenBase,
@@ -60,8 +59,8 @@ class _Body1State extends State<Body1> {
                           context,
                           MaterialPageRoute(
                             builder: (context) {
-                              return PlantsDetails(
-                                products: products[index],
+                              return SupplyDetails(
+                                products2: products2[index],
                               );
                             },
                           ),
@@ -75,16 +74,12 @@ class _Body1State extends State<Body1> {
                           fontSize: 14,
                         ),
                       ),
-                      // icon: Icon(
-                      //   Icons.shopping_cart_checkout_sharp,
-                      //   color: kWhiteBase,
-                      // ),
                     ),
                   ),
                 );
               },
             ),
-          ),
+          )
         ],
       ),
     );
