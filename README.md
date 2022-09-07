@@ -69,8 +69,10 @@
 # Screenshot for Home Side Feature:
 
 
-![Plant_Page 4 0](https://user-images.githubusercontent.com/77261121/188429313-d4454cbd-a004-4a08-8284-ae69ba6e0ae4.png)   ![Plant_Details](https://user-images.githubusercontent.com/77261121/188429407-8af9baf3-5ac0-4e8c-871b-f57d0bddd0ea.png)   ![Pot_Page](https://user-images.githubusercontent.com/77261121/188429513-921ca70c-803e-4a31-b61a-1c88e06ecbdd.png)   ![Pot_Details](https://user-images.githubusercontent.com/77261121/188429557-520a7236-195a-4e63-9251-8ee4d7d85919.png)   
-![Supply_Page](https://user-images.githubusercontent.com/77261121/188429621-c6179a4b-bf3f-4880-b5d6-fecf4d245206.png)   ![Supply_Details](https://user-images.githubusercontent.com/77261121/188429667-fdcd22b6-0ee6-4004-9e83-e0f4ed65122d.png)   ![List_Page 1 0](https://user-images.githubusercontent.com/77261121/188429824-c87bacea-2d4f-474d-b666-1d1641997385.png)   ![List_Page 2 0](https://user-images.githubusercontent.com/77261121/188429847-761c3606-1c74-4ce3-a7ae-ddd2ffee4e40.png)
+![Plant_Page 4 0](https://user-images.githubusercontent.com/77261121/188816745-fc82bac6-6085-41b7-b542-8c5ec581f4f1.png)   ![Plant_Details](https://user-images.githubusercontent.com/77261121/188816788-5696f1f3-4170-47fd-849b-cbbae3723921.png)   ![Pot_Page](https://user-images.githubusercontent.com/77261121/188816848-e84d4895-2452-43ef-ae43-acd8357f5b0e.png)   ![Pot_Details](https://user-images.githubusercontent.com/77261121/188816889-62e51c4f-f374-475a-82ac-ae438120c40a.png)   
+![Supply_Page](https://user-images.githubusercontent.com/77261121/188816952-70e36a8e-5eed-47ac-92e8-57730d48ab27.png)   ![Supply_Details](https://user-images.githubusercontent.com/77261121/188817009-48d56c71-1f51-463c-ad93-e8714270e1ba.png)   ![Store_Page](https://user-images.githubusercontent.com/77261121/188817081-6a782911-8522-4a62-84f9-2a8f4d1ed6e6.png)   ![Store_Details](https://user-images.githubusercontent.com/77261121/188817101-700b4825-8242-4649-86ba-16cde231e344.png)
+![List_Page 1 0](https://user-images.githubusercontent.com/77261121/188817148-02045526-6209-4051-b484-36e726bd2a4f.png)   ![List_Page 2 0](https://user-images.githubusercontent.com/77261121/188817153-dcffce4b-2837-452a-b362-a58b2c6deb50.png)
+
 
 
 
