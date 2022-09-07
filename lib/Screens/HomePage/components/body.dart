@@ -3,6 +3,7 @@
 import 'package:auth_oriza/Screens/ListSection/list.dart';
 import 'package:auth_oriza/Screens/PlantsSection/plants.dart';
 import 'package:auth_oriza/Screens/PotsSection/pots.dart';
+import 'package:auth_oriza/Screens/StoreSection/store.dart';
 import 'package:auth_oriza/Screens/SupplySection/supply.dart';
 import 'package:auth_oriza/constant.dart';
 import 'package:flutter/material.dart';
@@ -178,7 +179,16 @@ class Body extends StatelessWidget {
                   clipBehavior: Clip.antiAliasWithSaveLayer,
                   child: InkWell(
                     splashColor: Colors.black26,
-                    onTap: () {},
+                    onTap: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) {
+                            return StoreSection();
+                          },
+                        ),
+                      );
+                    },
                     child: Container(
                       decoration: BoxDecoration(
                         color: Colors.transparent,

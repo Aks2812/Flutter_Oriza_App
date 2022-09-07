@@ -71,6 +71,28 @@ class BodyDetails extends StatelessWidget {
           SizedBox(
             width: size.width * 0.92,
             child: Text(
+              "Store",
+              style: TextStyle(
+                fontWeight: FontWeight.normal,
+                fontSize: 16,
+              ),
+            ),
+          ),
+          SizedBox(height: size.height * 0.009),
+          SizedBox(
+            width: size.width * 0.92,
+            child: Text(
+              products.store,
+              style: TextStyle(
+                fontWeight: FontWeight.w700,
+                fontSize: 15,
+              ),
+            ),
+          ),
+          SizedBox(height: size.height * 0.03),
+          SizedBox(
+            width: size.width * 0.92,
+            child: Text(
               "Price",
               style: TextStyle(
                 fontWeight: FontWeight.normal,
@@ -89,7 +111,7 @@ class BodyDetails extends StatelessWidget {
               ),
             ),
           ),
-          SizedBox(height: size.height * 0.03),
+          SizedBox(height: size.height * 0.04),
           SizedBox(
             width: size.width * 0.9,
             child: CounterProduct(),
